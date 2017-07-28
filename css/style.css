@@ -1,0 +1,123 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color : #efffff;
+}
+.main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.calculatorBody {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  background-color: #a3a3a3;
+  width: 280px;
+  height: 420px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow : 0 5px 5px 0 #000020, 0 2px 30px 0 #000021 ;
+}
+#title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#title p {
+  font-size: 1.6em;
+  margin: 0;
+}
+#display {
+  width: 100%;
+  background-color: #b1cccc;
+  border-radius: 5px;
+  height: 80px;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  font-family: 'Share Tech Mono', monospace;
+  border: 4px solid black;
+  padding: 5px 5px 0px 4px;
+  display: flex;
+  justify-content: space-between;
+}
+#displayRight {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#bottomRow {
+  text-align: right;
+  font-size: 1.5em;
+}
+#displayLeft {
+  font-size: 2.2em;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#topRow {
+  color: #707070;
+  text-align: right;
+  max-width: 92%;
+}
+.buttons {
+  display: flex;
+}
+
+#buttonsRow {
+  height: 45px;
+  margin-bottom: 10px;
+}
+button {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.3em;
+}
+.square {
+  height: 45px;
+  width: 55px;
+  background-color: #fffffd;
+  
+}
+.squaree {
+  height: 45px;
+  width: 55px;
+  background-color: #ffc356;
+}
+.long {
+  height: 100px;
+  width: 55px;
+  background-color: #fffffd;
+}
+.wide {
+  width: 125px;
+  height: 45px;
+  background-color: #fffffd;
+}
+#topButtons {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  height: 170px;
+}
+#bottomButtons {
+  display: flex;
+  margin: 0px;
+  height: 112px;
+}
+#bottomCluster {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+button {
+  margin-right: 10px;
+  margin-left: 5px;
+}
